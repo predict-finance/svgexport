@@ -27,15 +27,15 @@
   },
   "dependencies": {
     "async": "^3.2.0",
-    "puppeteer": "^3.0.2"
+    "puppeteer": "^24.9.0"
   },
   "main": "index.js",
   "bin": {
     "svgexport": "bin/index.js"
   },
   "devDependencies": {
-    "mocha": "*",
-    "expect.js": "*"
+    "expect.js": "*",
+    "mocha": "*"
   },
   "scripts": {
     "test": "mocha"
